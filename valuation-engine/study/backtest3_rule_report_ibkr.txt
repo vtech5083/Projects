@@ -1,0 +1,10 @@
+960 company-dates, 12 year-ends (prices: IBKR)
+
+group                                       avg n  per year  beat all  $1 became  worst yr  edge t
+All companies (equal weight)                 80.0    +12.6%    0/12         3.92     -7.7%    +nan
+Good business                                50.0    +12.7%    5/12         3.94     -6.8%   +0.05
+Not a good business (Avoid)                  30.0    +12.2%    7/12         3.63     -9.4%   -0.23
+RULE: good business + realistic growth       29.0    +12.5%    5/12         3.80    -10.4%   -0.07
+RULE, and below our base-case value          15.7    +12.6%    6/12         3.73    -13.4%   +0.01
+Good business, price needs rare growth       15.0    +12.3%    6/12         3.72    -16.6%   -0.12
+S&P 500 (SPY, with dividends)                        +14.4%                 4.53    -18.2%

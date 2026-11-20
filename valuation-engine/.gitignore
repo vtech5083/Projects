@@ -1,0 +1,27 @@
+# Data: downloaded or derived from SEC and IBKR. Rebuilt locally; not published
+# (size, and IBKR market data may not be redistributed).
+edgar_cache/
+prices/
+prices_ibkr/
+prices_yahoo/
+runs/
+runs_yahoo/
+paper/
+dashboard_data/
+*_statements.csv
+*_sources.csv
+*_quarterly.csv
+*_quarterly_checks.csv
+*_quarterly_sources.csv
+market_inputs.json
+ibkr_settings.json
+fetch_requests*.txt
+fetch_log*.txt
+*.log
+__pycache__/
+.DS_Store
+# bundles of raw data, third-party spreadsheets, engine outputs that contain prices
+*.tgz
+study/backtest_runs/
+NVIDIA2023.xlsx
+/*.csv

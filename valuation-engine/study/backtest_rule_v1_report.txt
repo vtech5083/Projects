@@ -1,0 +1,30 @@
+company-dates: 960
+verdicts: {'Candidate': 108, 'Avoid': 198, 'Model does not fit': 135, 'Failed health check': 200, 'Check the data': 74, 'Fair': 179, 'Too expensive': 66}
+left after the fixes with our value over 5x the price: 6       date ticker        verdict       pv
+2013-12-31    EXC Check the data 0.133056
+2015-12-31    EXC Check the data 0.099710
+2017-12-31    HPQ Check the data 0.108085
+2019-12-31    AAL Check the data 0.168117
+2019-12-31   PAGP Check the data 0.096383
+2020-12-31    BMY Check the data 0.172862
+
+year  picks  rule   all    SPY
+2013     30  +20.0% +15.2% +13.5%
+2014     27  +0.9% -0.9% +1.2%
+2015     26  +11.8% +15.9% +12.0%
+2016     25  +28.1% +17.7% +21.7%
+2017     24  -6.0% -7.7% -4.6%
+2018     26  +29.0% +27.6% +31.2%
+2019     26  +15.4% +4.6% +18.3%
+2020     23  +27.9% +27.8% +28.7%
+2021     28  -7.2% -1.7% -18.2%
+2022     18  +21.1% +21.6% +26.2%
+2023     18  +15.8% +14.3% +24.9%
+2024     16  +2.6% +16.9% +17.7%
+
+rule       +13.3%/yr   $1 -> 4.14   worst year -7.2%
+all        +12.6%/yr   $1 -> 3.92   worst year -7.7%
+SPY        +14.4%/yr   $1 -> 4.53   worst year -18.2%
+rule beat all companies in 8 of 12 years; beat SPY in 3
+edge over all companies +0.7%/yr, t = 0.34 (12 years: below 2 is within luck)
+3-year: rule picks +44.9% vs all +42.9%

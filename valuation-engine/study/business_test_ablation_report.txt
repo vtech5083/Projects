@@ -1,0 +1,57 @@
+== 2x2: business test x growth test (both growth tests at NORMAL margin) ==
+Mac business + Mac growth                                      +12.5%/yr  $1->3.80  picks 348  beat-all 5/12  3y +43%
+Mac business + Draft growth                                    +13.7%/yr  $1->4.31  picks 375  beat-all 7/12  3y +44%
+Draft business + Mac growth                                    +13.4%/yr  $1->4.27  picks 254  beat-all 5/12  3y +43%
+Draft business + Draft growth                                  +15.4%/yr  $1->5.19  picks 278  beat-all 8/12  3y +44%
+all companies                                                  +12.6%/yr  $1->3.92  picks 960  beat-all 0/12  3y +43%
+
+growth tests agree on 89% of company-dates; engine vs draft implied growth median gap 0.000
+business tests agree on 78%; Mac pass 600, draft pass 438, both 414
+
+== start from DRAFT business test (+ draft growth at normal), change one thing ==
+draft as is                                                    +15.4%/yr  $1->5.19  picks 278  beat-all 8/12  3y +44%
++ add Mac's steady-margin test as required                     +16.0%/yr  $1->5.51  picks 256  beat-all 9/12  3y +45%
+swap shares test -> Mac (no split fix)                         +15.2%/yr  $1->5.09  picks 273  beat-all 7/12  3y +44%
+swap returns test -> Mac (cash-rich years count as pass)       +15.6%/yr  $1->5.33  picks 276  beat-all 8/12  3y +44%
+swap profit test -> Mac (90% of years)                         +15.7%/yr  $1->5.32  picks 256  beat-all 8/12  3y +45%
+pass rule -> Mac style (musts + 4 of 5)                        +14.0%/yr  $1->4.48  picks 393  beat-all 8/12  3y +41%
+
+== start from MAC business test (+ draft growth at normal), change one thing ==
+Mac as is (musts + 5 of 6)                                     +13.7%/yr  $1->4.31  picks 375  beat-all 7/12  3y +44%
+drop steady-margin test (musts + 4 of other 5)                 +13.9%/yr  $1->4.39  picks 380  beat-all 7/12  3y +43%
+require all 6                                                  +14.8%/yr  $1->4.76  picks 255  beat-all 8/12  3y +46%
+require all except steady margins                              +14.5%/yr  $1->4.69  picks 272  beat-all 7/12  3y +46%
+
+picked only by draft: 22, avg 1y +8.9%; only by Mac: 119, avg 1y +9.7%
+  draft-only picks: Mac test that failed -> {'generates cash': np.int64(2), 'stays profitable': np.int64(22), 'earns more than its cost of capital': np.int64(2), 'steady margins': np.int64(5), 'debt it can repay': np.int64(2), 'does not keep issuing shares': np.int64(2)}
+  Mac-only picks: draft test that failed -> {'cash': np.int64(0), 'returns': np.int64(19), 'profit': np.int64(0), 'debt': np.int64(107), 'owners': np.int64(10)}
+
+draft-only picks by ticker (count, avg 1y):
+        count   mean
+ticker              
+NOC         5  0.204
+DAL         4  0.066
+HPQ         3  0.143
+TJX         3  0.099
+M           3  0.016
+HON         2  0.135
+TSN         2 -0.187
+
+Mac-only picks by ticker:
+        count   mean
+ticker              
+CMCSA      11  0.046
+DE          7  0.264
+ARW         6  0.111
+TGT         5  0.239
+VZ          5 -0.006
+F           4  0.097
+TSN         4  0.131
+UPS         4  0.217
+PEP         4  0.045
+RTX         4  0.040
+NOC         4  0.112
+HCA         4  0.192
+FDX         4  0.175
+CVS         3 -0.197
+NUE         3  0.000

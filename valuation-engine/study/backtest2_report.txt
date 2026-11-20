@@ -1,0 +1,81 @@
+
+=== companies that passed the health check  (return horizon 1y) ===
+signal                                    mean IC  t-stat   IC>0   top-bottom fifth  top fifth vs avg
+DCF value / price (today's engine)         -0.089   -1.75   4/12             -6.4%            -2.1%
+DCF value / price, no growth size cap      -0.088   -1.72   4/12             -5.5%            -1.9%
+Free-cash-flow yield                       -0.092   -1.71   4/12             -8.7%            -4.9%
+Earnings yield (E/P)                       -0.109   -1.64   3/12            -10.0%            -7.4%
+Gross profitability (quality)              +0.043    0.66   7/12             +4.4%            +2.4%
+DCF value + gross profitability            -0.011   -0.19   7/12             -1.3%            +2.6%
+
+=== all companies (excluding data-only failures)  (return horizon 1y) ===
+signal                                    mean IC  t-stat   IC>0   top-bottom fifth  top fifth vs avg
+DCF value / price (today's engine)         -0.054   -1.32   4/12             -6.4%            -2.1%
+DCF value / price, no growth size cap      -0.055   -1.32   4/12             -6.5%            -1.6%
+Free-cash-flow yield                       -0.015   -0.36   6/12             -1.3%            -1.4%
+Earnings yield (E/P)                       -0.096   -2.92   2/12             -7.2%            -3.3%
+Gross profitability (quality)              +0.088    1.28   7/12             +6.6%            +3.3%
+DCF value + gross profitability            +0.030    0.59   5/12             +3.6%            +1.9%
+
+=== companies that passed the health check  (return horizon 3y) ===
+signal                                    mean IC  t-stat   IC>0   top-bottom fifth  top fifth vs avg
+DCF value / price (today's engine)         +0.014    0.46   5/10             -2.0%            -1.3%
+DCF value / price, no growth size cap      +0.019    0.64   6/10             -2.9%            -2.2%
+Free-cash-flow yield                       -0.035   -0.79   5/10            -11.4%            -4.7%
+Earnings yield (E/P)                       -0.056   -1.12   3/10            -15.9%           -12.5%
+Gross profitability (quality)              +0.053    0.96   5/10            +10.4%           +11.7%
+DCF value + gross profitability            +0.061    1.29   6/10             +7.7%            +8.4%
+
+=== by year: DCF value/price vs free-cash-flow yield (1-year IC, healthy companies) ===
+2013-12-31  n= 52  DCF -0.09  no-cap -0.09  FCF +0.12  E/P +0.08   universe avg +17.8%  SPY +13.5%
+2014-12-31  n= 53  DCF -0.25  no-cap -0.25  FCF -0.33  E/P -0.33   universe avg +0.8%  SPY +1.2%
+2015-12-31  n= 49  DCF +0.18  no-cap +0.17  FCF +0.01  E/P +0.41   universe avg +11.6%  SPY +12.0%
+2016-12-31  n= 52  DCF -0.08  no-cap -0.08  FCF -0.25  E/P -0.27   universe avg +22.4%  SPY +21.7%
+2017-12-31  n= 47  DCF -0.02  no-cap -0.05  FCF -0.07  E/P -0.21   universe avg -6.2%  SPY -4.6%
+2018-12-31  n= 48  DCF +0.09  no-cap +0.09  FCF -0.20  E/P -0.16   universe avg +27.7%  SPY +31.2%
+2019-12-31  n= 53  DCF -0.26  no-cap -0.24  FCF -0.44  E/P -0.41   universe avg +11.6%  SPY +18.3%
+2020-12-31  n= 45  DCF +0.03  no-cap +0.03  FCF +0.17  E/P -0.02   universe avg +24.1%  SPY +28.7%
+2021-12-31  n= 58  DCF -0.23  no-cap -0.27  FCF +0.12  E/P -0.10   universe avg -4.0%  SPY -18.2%
+2022-12-31  n= 50  DCF +0.10  no-cap +0.12  FCF -0.02  E/P +0.15   universe avg +19.2%  SPY +26.2%
+2023-12-31  n= 55  DCF -0.41  no-cap -0.41  FCF -0.11  E/P -0.28   universe avg +15.1%  SPY +24.9%
+2024-12-31  n= 56  DCF -0.14  no-cap -0.08  FCF -0.13  E/P -0.18   universe avg +14.7%  SPY +17.7%
+
+failed the health check: 359 company-dates, of which 28 failed only on data
+
+=== health check (real failures only): average 1-year return ===
+2013-12-31  failed +12.0% (n=11)  passed +17.8%  difference +5.9%
+2014-12-31  failed -5.9% (n=17)  passed +0.8%  difference +6.7%
+2015-12-31  failed +26.1% (n=20)  passed +11.6%  difference -14.5%
+2016-12-31  failed +2.9% (n=20)  passed +22.4%  difference +19.5%
+2017-12-31  failed -9.9% (n=27)  passed -6.2%  difference +3.7%
+2018-12-31  failed +27.5% (n=30)  passed +27.7%  difference +0.2%
+2019-12-31  failed -8.2% (n=29)  passed +11.6%  difference +19.7%
+2020-12-31  failed +31.9% (n=42)  passed +24.1%  difference -7.8%
+2021-12-31  failed +2.7% (n=31)  passed -4.0%  difference -6.7%
+2022-12-31  failed +25.2% (n=39)  passed +19.2%  difference -6.0%
+2023-12-31  failed +14.0% (n=31)  passed +15.1%  difference +1.0%
+2024-12-31  failed +21.4% (n=34)  passed +14.7%  difference -6.7%
+average difference +1.2%, t-stat 0.41, passed beat failed in 7/12 years
+
+=== high conviction: in the top fifth by value/price under all 6 assumption sets ===
+2013-12-31   6 names  +26.9% vs universe +17.8%   WMT, AAPL, HPQ, TGT, DE, LLY
+2014-12-31   7 names  -11.9% vs universe +0.8%   WMT, T, VZ, RTX, HPQ, DE, HAL
+2015-12-31   7 names  +7.5% vs universe +11.6%   WMT, AAPL, TGT, GOOGL, RTX, HPQ, GILD
+2016-12-31   9 names  +15.1% vs universe +22.4%   WMT, CVS, T, TGT, RTX, GILD, HPE, ARW, ABBV
+2017-12-31   8 names  -2.4% vs universe -6.2%   CVS, F, GOOGL, TGT, RTX, TJX, GILD, M
+2018-12-31   6 names  +45.5% vs universe +27.7%   GOOGL, TGT, RTX, META, UAL, TJX
+2019-12-31   6 names  -25.2% vs universe +11.6%   GOOGL, MPC, DAL, UAL, RTX, PAGP
+2020-12-31   6 names  +27.7% vs universe +24.1%   GOOGL, INTC, TSN, NOC, BMY, MO
+2021-12-31   8 names  -2.2% vs universe -4.0%   GOOGL, INTC, ABBV, TSN, MRK, DOW, MO, GILD
+2022-12-31   9 names  +38.0% vs universe +19.2%   GOOGL, VZ, META, FDX, PFE, TSN, LYB, NUE, QCOM
+2023-12-31   9 names  +6.9% vs universe +15.1%   CVS, GOOGL, META, PFE, PEP, HCA, CSCO, PBF, BMY
+2024-12-31   7 names  +20.8% vs universe +14.7%   GOOGL, CMCSA, HCA, MRK, EPD, NUE, LEN
+average: high conviction +12.2% vs universe +12.9%; beat it in 7/12 years
+
+=== labels and the next year ===
+               count   mean  median
+label                              
+Buy candidate     84  0.128   0.108
+Hold or watch    261  0.103   0.080
+No label         359  0.134   0.112
+Overpriced       273  0.148   0.130

@@ -1,0 +1,34 @@
+
+good_business: return vs the year's average company, 1y
+  True               -0.1% over 1 year (t -0.07), ahead in 5/12 years, about 51 companies a year
+  False              -0.1% over 1 year (t -0.07), ahead in 7/12 years, about 31 companies a year
+
+growth_verdict: return vs the year's average company, 1y
+  not measurable     +1.6% over 1 year (t +0.55), ahead in 7/12 years, about 22 companies a year
+  implausible        +0.8% over 1 year (t +0.19), ahead in 6/12 years, about 9 companies a year
+  stretched          -0.8% over 1 year (t -0.41), ahead in 5/12 years, about 11 companies a year
+  plausible          -1.3% over 1 year (t -1.04), ahead in 3/12 years, about 40 companies a year
+
+verdict: return vs the year's average company, 1y
+  Too expensive      +0.4% over 1 year (t +0.07), ahead in 6/12 years, about 5 companies a year
+  Watch              -0.1% over 1 year (t -0.03), ahead in 6/12 years, about 16 companies a year
+  Candidate          -0.1% over 1 year (t -0.05), ahead in 6/12 years, about 16 companies a year
+  Avoid              -0.1% over 1 year (t -0.07), ahead in 7/12 years, about 31 companies a year
+  Fair               -1.2% over 1 year (t -0.42), ahead in 6/12 years, about 14 companies a year
+
+good_business: return vs the year's average company, 3y
+  True               +3.6% over 3 years (t +1.11), ahead in 7/10 years, about 50 companies a year
+  False              -6.1% over 3 years (t -1.09), ahead in 3/10 years, about 29 companies a year
+
+growth_verdict: return vs the year's average company, 3y
+  not measurable     +5.9% over 3 years (t +0.72), ahead in 4/10 years, about 20 companies a year
+  implausible        +3.1% over 3 years (t +0.59), ahead in 5/10 years, about 8 companies a year
+  stretched          +2.6% over 3 years (t +0.32), ahead in 6/10 years, about 10 companies a year
+  plausible          -3.8% over 3 years (t -1.51), ahead in 4/10 years, about 42 companies a year
+
+verdict: return vs the year's average company, 3y
+  Too expensive      +9.1% over 3 years (t +1.12), ahead in 6/10 years, about 4 companies a year
+  Watch              +8.4% over 3 years (t +2.04), ahead in 8/10 years, about 15 companies a year
+  Candidate          +6.4% over 3 years (t +1.24), ahead in 7/10 years, about 17 companies a year
+  Fair               -4.2% over 3 years (t -0.98), ahead in 5/10 years, about 14 companies a year
+  Avoid              -6.1% over 3 years (t -1.09), ahead in 3/10 years, about 29 companies a year
